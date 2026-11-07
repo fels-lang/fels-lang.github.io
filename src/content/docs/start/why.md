@@ -11,9 +11,9 @@ to keep in your head. So Fels has a few ideas and tries to do them well:
 - Code can run while the program compiles.
 - One tool builds your project, runs its tests and fetches its packages.
 
-Fels is young, and the language still changes. But it is not a toy: I write real programs in it.
-The biggest one is Strata, an app for my own investments. Building it turned up a lot of bugs in
-the compiler, and I fixed them along the way.
+Fels is young, and the language still changes. I write real programs in it; the biggest one is
+Strata, an app for my own investments. Building it turned up a lot of bugs in the compiler, and
+I fixed them along the way.
 
 ## Where it stands
 
