@@ -3,17 +3,23 @@ title: Why Fels
 description: What Fels is for, and where it stands today.
 ---
 
-I wanted a language that stays close to the machine, like C, but is harder to get wrong and easy
-to keep in your head. So Fels has a few ideas and tries to do them well:
+Fels is a language that stays close to the machine, like C, while being harder to get wrong and
+small enough to keep in your head. It is built around a few ideas:
 
 - Memory lives in zones, and a zone is freed when its block ends.
-- Errors are plain values that you check, not exceptions that fly past you.
+- Errors are plain values that you check, not exceptions.
 - Code can run while the program compiles.
-- One tool builds your project, runs its tests and fetches its packages.
+- One tool builds a project, runs its tests and fetches its packages.
 
-Fels is young, and the language still changes. I write real programs in it; the biggest one is
-Strata, an app for my own investments. Building it turned up a lot of bugs in the compiler, and
-I fixed them along the way.
+Fels is young, and the language still changes. A few programs written in it:
+
+- Strata, a desktop app for tracking investments, with Dear ImGui and SQLite.
+- [A raytracer](https://github.com/fels-lang/fels/tree/main/examples/raytracer): path-traced
+  spheres of diffuse, metal and glass.
+- [A kernel](https://github.com/fels-lang/fels/tree/main/examples/kernel) that boots in QEMU,
+  with no operating system underneath.
+- [An asteroids simulation](https://github.com/fels-lang/fels/tree/main/examples/ecs_game) built
+  on an entity component system.
 
 ## Where it stands
 
